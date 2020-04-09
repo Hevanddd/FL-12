@@ -8,7 +8,7 @@
 }
 
 .tm-banner-text {
-    text-shadow: 0px 9px 2px #76cdd7;
+    text-shadow: 0px 9px 2px #76cdd7, 0px 3px 1px #76cdd7;
     letter-spacing: 3px;
     word-spacing: 7px;
     animation: banner-text-move 4s;
@@ -158,9 +158,9 @@ section::before {
 }
 
 @media print {
-    section {
+    /* section {
         padding: 0px 25px;
-    }
+    } */
 
     .tm-sidebar,
     .tm-team-img,
