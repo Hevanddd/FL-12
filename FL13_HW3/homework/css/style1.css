@@ -58,10 +58,10 @@ body {
     .header-wrap .header_text {
       font-family: Hind, sans-serif;
       margin-bottom: 50px;
-      margin-left: -45px;
       line-height: 1.2rem;
+      width: 700px;
       font-size: 15px;
-      white-space: pre; }
+      white-space: pre-line; }
     .header-wrap .header_button {
       background-color: #699900;
       height: 35px;
