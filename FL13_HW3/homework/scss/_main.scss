@@ -113,9 +113,10 @@ body {
         .header_text {
             font-family: $secondFont;
             margin-bottom: 50px;
-            width: 550px;
+            margin-left: -45px;
             line-height: 1.2rem;
             font-size: 15px;
+            white-space: pre;
         }
 
         .header_button {
