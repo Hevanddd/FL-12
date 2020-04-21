@@ -19,5 +19,5 @@ let sum = checkNumber + percent;
 
 alert(`Check number : ${checkNumber}
 Tip: ${percentage}%
-Tip amount: ${percent.toFixed(2)}
-Total sum to pay: ${sum.toFixed(2)}`);
+Tip amount: ${+percent.toFixed(2)}
+Total sum to pay: ${+sum.toFixed(2)}`);
