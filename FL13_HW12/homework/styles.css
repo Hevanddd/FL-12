@@ -1,0 +1,88 @@
+#root {
+    display: flex;
+}
+
+ul {
+    padding: 0px;
+    margin: 0;
+}
+
+.list-book-side {
+    background-color: red;
+    width: 50%;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview-side {
+    background-color: blue;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-book li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-book_image {
+    height: 400px;
+    /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); */
+    box-shadow: 10px 10px 23px 10px rgba(0, 0, 0, 0.75);
+
+}
+
+.item-book_description {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    background-color: #01016a;
+    border-radius: 5px;
+    box-shadow: 0px 0px 27px 8px rgba(0, 0, 0, 0.75);
+}
+
+.button {
+    background-color: transparent;
+    width: 50px;
+    height: 25px;
+    padding: 5px;
+    outline: none;
+}
+
+.input {
+    text-align: center;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+form {
+    width: 400px;
+}
+
+.edit-buttons-container {
+
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.edit-button {
+    width: 80px;
+    color: white;
+    background-color: transparent;
+}
+
+.add-button {
+    color: white;
+    margin-top: 100px;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+}
