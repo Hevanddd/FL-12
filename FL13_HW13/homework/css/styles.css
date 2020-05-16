@@ -1,0 +1,17 @@
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+ul{
+    list-style: none;
+}
+
+.title-description__description{
+    font-size: 13px;
+}
+
+.btn-primary{
+    background-color: #FF7F50;
+    border-color: #FF7F50;
+}
