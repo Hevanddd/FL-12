@@ -1,0 +1,29 @@
+#app-container{
+    width: 500px;
+    margin: 100px auto;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.app-container__title{
+    text-align: center;
+}
+
+.users-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.app-container__form{
+    margin: 0 auto;
+    width: 435px;
+}
+
+.user-id{
+    display: inline-block;
+    width: 60px;
+}
+
+.loading-element{
+    text-align: center;
+}
