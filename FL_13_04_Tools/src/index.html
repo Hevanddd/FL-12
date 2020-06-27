@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, paper, scissors</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <section class="game-section">
+      <div class="game-description">
+        <p>
+          Let's play the famous kid game! <br />
+          Scissors beats a paper, <br />
+          Paper beats rock,<br />
+          Rock beats scissors,<br />
+          We play up to 3 wins. <br />
+        </p>
+        <h1>Can you win vs computer?</h1>
+        <p class="info-table">Do your choice!</p>
+      </div>
+      <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="comp-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+      </div>
+      <ul class="user-choices">
+        <li><img class="user-choice" alt="rock" id="r" /></li>
+        <li><img class="user-choice" alt="paper" id="p" /></li>
+        <li><img class="user-choice" alt="scissors" id="s" /></li>
+      </ul>
+      <button class="reset-button">Reset</button>
+    </section>
+  </body>
+</html>
