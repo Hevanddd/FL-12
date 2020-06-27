@@ -1,12 +1,12 @@
 function convertToWord(letter) {
     if (letter === 'r') {
-        return "Rock"
+        return 'Rock'
     };
     if (letter === 'p') {
-        return "Paper"
+        return 'Paper'
     };
     if (letter === 's') {
-        return "Scissors"
+        return 'Scissors'
     };
 }
 
