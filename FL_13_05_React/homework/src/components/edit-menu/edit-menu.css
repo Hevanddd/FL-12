@@ -1,0 +1,44 @@
+.edit-menu{
+    position: absolute;
+    z-index: 1;
+    top: 45px;
+    right: 40px;
+    width: 220px;
+    background-color: white;
+    list-style-type: none;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75);
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.edit-menu-item{
+    padding: 15px 0px 0px 50px;
+    position: relative;
+}
+
+.edit-menu-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.edit-menu-item:nth-child(1)::before{
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    background: url(./edit.svg) no-repeat scroll 5% 50%/20px;
+    width: 20px;
+    height: 40px;
+}
+.edit-menu-item:nth-child(2)::before{
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    background: url(./delete.svg) no-repeat scroll 5% 50%/20px;
+    width: 20px;
+    height: 40px;
+    background-color: white;
+    border-radius: 6px;
+}

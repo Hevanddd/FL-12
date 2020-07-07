@@ -1,0 +1,31 @@
+.course-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.course-item-date{
+    padding-left: 4%;
+}
+
+.course-item-title{
+    width: 15%;
+    font-weight: bold;
+}
+
+.course-item-description{
+    width: 40%;
+}
+
+.course-item-edit-menu{
+    position: relative;
+    width: 70px;
+    font-size: 25px;
+    padding-right: 4%;
+    padding-bottom: 10px;
+    font-weight: 300;
+}

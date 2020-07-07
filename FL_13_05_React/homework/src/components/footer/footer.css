@@ -1,0 +1,15 @@
+.app-footer{
+    margin-top: 130px;
+    background-color: white;
+}
+
+.app-footer-wrapper{
+    padding: 0 15% 0 15%;
+}
+
+.app-footer-text{
+    color: grey;
+    display: inline-block;
+    padding: 20px 0px 20px 0px;
+}
+

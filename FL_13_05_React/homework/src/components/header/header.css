@@ -1,0 +1,12 @@
+.app-header{
+    background-color: white;
+}
+.app-header-wrapper{
+    padding: 0 15% 0 15%;
+}
+.logo{
+    display: inline-block;
+    padding: 20px 0px 20px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

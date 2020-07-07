@@ -1,0 +1,16 @@
+.search-bar{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+.search-bar-input{
+    position: relative;
+    height: 37px;
+    width: 75%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10%;
+    vertical-align: middle;
+    background: white url(./search-icon.svg) no-repeat scroll 5% 50%/20px;
+}
