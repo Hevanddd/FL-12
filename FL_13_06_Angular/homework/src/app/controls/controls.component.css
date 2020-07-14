@@ -1,0 +1,35 @@
+.controls{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls-input{
+    width: 150px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.controls-filter-btn{
+    width: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 34px;
+    color: white;
+    background-color: blue;
+}
+
+.controls-text{
+    height: 30px;
+    width: 250px;
+}
+
+.controls-add-btn{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}

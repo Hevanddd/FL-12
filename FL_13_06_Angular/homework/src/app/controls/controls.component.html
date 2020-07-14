@@ -1,0 +1,10 @@
+<div class="controls">
+    <select class="controls-input" name="source" id="source" [(ngModel)]="filters.selectValue">
+        <option *ngFor="let source of sources">{{source}}</option>
+    </select>
+    <div>
+        <input class="controls-input controls-text" type="text" placeholder="Type your text..." [(ngModel)]="filters.textValue">
+        <button class="controls-filter-btn"type="button" (click)="onFilter()">Filter</button>
+    </div>
+    <a routerLink="/create-news" class="controls-add-btn controls-input">Add Article</a>
+</div>

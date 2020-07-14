@@ -1,0 +1,34 @@
+.news-list{
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.news-list-item{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 60%;
+    min-height: 200px;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.news-list-item-title{
+    text-align: center;
+}
+
+.news-list-item-image{
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin: 0px 10px 20px;
+    border: 1px solid black;
+}
+
+.news-list-item-date{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}

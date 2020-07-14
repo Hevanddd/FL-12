@@ -1,0 +1,29 @@
+<div class="create-news">
+    <form class="create-news-form" [formGroup]="form" (ngSubmit)="addNews()">
+        <div class="create-news-form-wrapper">
+            <label for="heading">Heading</label>
+            <input type="text" id="heading" name ="heading" class="create-news-form-input" formControlName="title">
+            <label for="description">Short description</label>
+            <input type="text" id="description" name="description" class="create-news-form-input" formControlName="shortDesc">
+            <label for="content">Content</label>
+            <textarea name="" id="content" name="content" class="create-news-form-input" formControlName="content">
+            </textarea> 
+        </div>
+        <div class="create-news-form-wrapper">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" class="create-news-form-input" formControlName="date">
+            <label for="author">Author</label>
+            <input type="text" id="author" name="author" class="create-news-form-input" formControlName="author">
+            <label for="image">Image URL</label>
+            <input type="text" id="image" name="image" class="create-news-form-input" formControlName="imageUrl">
+            <label for="source">Source URL</label>
+            <input type="text" id="source" name="source" class="create-news-form-input" formControlName="sourceUrl">
+            <div class="form-buttons">
+                <button type="submit" class="btn" [disabled]="form.invalid  ">Save</button>
+                <button type="button" class="btn" (click)="returnToNewsPage()">Cancel</button>
+            </div>
+        </div>
+
+
+    </form>
+</div>

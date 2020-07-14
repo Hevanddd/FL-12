@@ -1,0 +1,10 @@
+<ul class="news-list">
+    <li *ngFor="let newsItem of newsList | filter: filters.textValue : filters.selectValue">
+        <div class="news-list-item" (click)="toNews(newsItem)">
+            <h4 class="news-list-item-title">{{newsItem.title}}</h4>
+            <img class="news-list-item-image" src="{{newsItem.imageUrl}}">
+            <span class="news-list-item-date">{{newsItem.date}}</span>
+            <p class="news-list-item-description">{{newsItem.shortDesc}}</p>
+        </div>
+    </li>
+</ul>

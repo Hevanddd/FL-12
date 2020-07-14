@@ -1,0 +1,54 @@
+.create-news{
+    width: 60%;
+    margin: 0 auto;
+    background-color: lightblue;
+    padding: 10px 0 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.create-news-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-news-form-input{
+    background-color: white;
+    width: 90%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.create-news-form textarea{
+    height: 150px;
+}
+
+.create-news-form-wrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-buttons{
+    width: 80%;
+    margin-top: 50px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.btn{
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 40%;
+}
+
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
+
+textarea.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
